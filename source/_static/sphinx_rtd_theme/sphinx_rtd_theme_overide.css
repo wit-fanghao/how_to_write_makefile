@@ -1,0 +1,99 @@
+
+
+/*
+侧边栏搜索栏设置
+*/
+.wy-side-nav-search 
+{
+    display: block;
+    width: 300px;
+    padding: 0.809em;
+    margin-bottom: 0.809em;
+    z-index: 200;
+    background-color: #cb3878;
+    text-align: center;
+    color: #fcfcfc;
+}
+
+/*
+侧边栏搜索栏设置
+*/
+.wy-menu-vertical 
+{
+    width: 300px;
+}
+
+/*
+侧边栏标题栏设置
+*/
+.wy-nav-side {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 2em;
+    width: 300px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-height: 100%;
+    
+    /*侧边栏标题选中颜色*/
+    color: #FF1234;
+
+    /*侧边栏标题背景颜色*/
+    background: #343131;
+    z-index: 200;
+    font-size: 12px;
+}
+
+/*
+侧边栏标题栏进度条设置
+*/
+.wy-side-scroll 
+{
+	/*需要比 wy-nav-side 宽 20px,原因是遮挡 overflow-y 进度条*/
+    width: 320px;
+
+    /*scroll 带进度条，hidden 不带进度条*/
+    overflow-x: hidden;
+    overflow-y: scroll;/*带进度条-解决侧边栏过高*/
+    height: 100%;
+}
+
+/*
+内容区设置
+*/
+.wy-nav-content-wrap {
+    margin-left: 300px;
+    background: #fcfcfc;
+    min-height: 100%;
+    font-size: 16px;
+}
+
+/*
+如下设置宽度为全屏
+.wy-nav-content 
+{
+    max-width: none;
+}
+
+如下设置内容区宽度为1000px
+.wy-nav-content 
+{
+    max-width: 1200px !important;
+}
+*/
+.wy-nav-content 
+{
+    max-width: none;
+    margin: 0;
+    background: #fcfcfc;
+    padding: 0em 2em;
+    height: 100%;
+}
+
+body 
+{
+    /*设置content字体颜色*/
+    color: #404040;
+}

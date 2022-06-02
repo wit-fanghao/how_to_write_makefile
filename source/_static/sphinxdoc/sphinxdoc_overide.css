@@ -1,0 +1,49 @@
+
+/*
+整个页面区域
+有以下地方设置
+1.sphinxdoc.css
+*/
+body 
+{
+    font-size: 14px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+/*
+右侧内容区域：
+有以下地方设置
+1.basic.css
+2.sphinxdoc.css*/
+div.body 
+{
+    margin: 0;
+    padding: 0px 20px 0px 20px;
+    max-width: none;
+}
+
+
+/*右侧内容区域*/
+div.bodywrapper 
+{
+    margin: 0 0 0 300px;
+    border-right: 1px solid #ccc;
+    max-width: none;
+}
+
+/*
+左侧侧边栏区域：
+有以下地方设置
+1.basic.css
+2.sphinxdoc.css
+*/
+div.sphinxsidebar {
+           /*y1  x1  y2  x2*/
+    padding: 0px 0px 0px 10px;
+    width: 300px; /*300px*/
+    float: left;
+    font-size: 1em;
+    text-align: left;
+    background-color: #000000;
+}
